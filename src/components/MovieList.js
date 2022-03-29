@@ -20,6 +20,7 @@ const MovieList = (props) => {
         else {
             return(        
             <div>
+                <MovieDetail data = {props.searchedData} text = {"SEARCH RESULTS FOR: " + props.searchValue} onMovieSelect = {props.onMovieSelect}/>
             </div>)
         }
     }
