@@ -29,6 +29,7 @@ p {
 .header--searchBar {
   height: 60%;
   margin: auto 0px auto 0px;
+  border-radius: 4px;
 }
 
 .header--webName {
@@ -46,7 +47,7 @@ p {
   outline: none;
   border: none;
   font-family: Arial, Helvetica, sans-serif;
-  width: 600px;
+  width: 500px;
   height: 100%;
   background-color: azure;
   padding: 8px;
@@ -54,7 +55,7 @@ p {
 
 .searchBar--icon {
   height: 100%;
-  width: 48px;
+  width: 40px;
   border: none;
   background-color: darkturquoise;
 }
